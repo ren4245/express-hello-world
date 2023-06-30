@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .form-field {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0e63ac;
+  }
+  
+  .forgot-password a {
+    color: #1877f2;
+    text-decoration: none;
+  }
+  
+  .create-account {
+    margin-top: 20px;
+  }
+  
+  .create-account a {
+    color: #1877f2;
+    text-decoration: none;
+  }
+  footer {
+    background-color: #f7f7f7;
+    padding: 20px 0;
+  }
+  
+  .containeree {
+    display: flex;
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+  }
+  
+  .containeree div {
+    font-size: 10px;
+    flex: 1;
+    text-align: center; /* Centrer le texte horizontalement */
+  }
+  
+  .containeree div p {
+    margin-bottom: 0px; /* Réduire l'espace entre les paragraphes */
+  }
+  .containeree div:first-child
+   {
+    margin-right: 0px; /* Réduire l'espace entre les deux divs */
+  }
+  .ligne-separee {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .ligne-separee hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #000;
+    margin: 0 10px;
+  }
+  
+  .ligne-separee span {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .create-account {
+    border: 1px solid black;
+    padding: 10px;
+    display: inline-block;
+  }
+  h1 {
+    color:  #1877f2;;
+  }
+      
+  
+  
+  
+  
